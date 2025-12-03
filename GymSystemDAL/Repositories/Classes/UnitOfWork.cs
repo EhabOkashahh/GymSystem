@@ -21,6 +21,8 @@ namespace GymSystemDAL.Repositories.Classes
 
         public async Task<int> ApplyToDataBaseAsync() => await _context.SaveChangesAsync();
 
+       
+
 
     }
 }

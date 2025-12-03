@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GymSystem.DAL.Entities;
+using GymSystemBLL.Models;
 
 namespace GymSystemBLL.Services.Interfaces
 {
     public interface IMemberService
     {
-        Task<IEnumerable<Member>> GetAllMembersAsync();
-        Task<Member> GetMemberByIdAsync(int? id);
-        Task<int> AddMemberAsync(Member member);
-        Task<int> UpdateMember(Member member);
-        Task<int> DeleteMember(int? id);
+        Task<IEnumerable<MemberModelView>> GetAllMembersAsync();
+        Task<MemberModelView?> GetMemberByIdAsync(int? id);
+        Task<HealthRecordModelView?> GetHealthRecordDetails(int? id);
+        Task<bool> CreateMemberAsync(CreateMemberModelView Model);
+        Task<bool> UpdateMember(int id , UpdateMemberModelView model);
+        Task<bool> DeleteMember(int? id);
     }
 }
