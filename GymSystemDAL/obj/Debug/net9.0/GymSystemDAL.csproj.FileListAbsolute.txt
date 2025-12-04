@@ -12,3 +12,4 @@ D:\VS PROJECTS\GymSystem\GymSystemDAL\obj\Debug\net9.0\refint\GymSystemDAL.dll
 D:\VS PROJECTS\GymSystem\GymSystemDAL\obj\Debug\net9.0\GymSystemDAL.pdb
 D:\VS PROJECTS\GymSystem\GymSystemDAL\obj\Debug\net9.0\GymSystemDAL.genruntimeconfig.cache
 D:\VS PROJECTS\GymSystem\GymSystemDAL\obj\Debug\net9.0\ref\GymSystemDAL.dll
+D:\VS PROJECTS\GymSystem\GymSystemDAL\obj\Debug\net9.0\GymSystemDAL.sourcelink.json

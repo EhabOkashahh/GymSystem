@@ -1,0 +1,16 @@
+D:\VS PROJECTS\GymSystem\GymSystemBLL\bin\Debug\net9.0\GymSystemBLL.deps.json
+D:\VS PROJECTS\GymSystem\GymSystemBLL\bin\Debug\net9.0\GymSystemBLL.dll
+D:\VS PROJECTS\GymSystem\GymSystemBLL\bin\Debug\net9.0\GymSystemBLL.pdb
+D:\VS PROJECTS\GymSystem\GymSystemBLL\bin\Debug\net9.0\GymSystemDAL.dll
+D:\VS PROJECTS\GymSystem\GymSystemBLL\bin\Debug\net9.0\GymSystemDAL.pdb
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.csproj.AssemblyReference.cache
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.AssemblyInfoInputs.cache
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.AssemblyInfo.cs
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.csproj.CoreCompileInputs.cache
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.sourcelink.json
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSyste.7665B620.Up2Date
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.dll
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\refint\GymSystemBLL.dll
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\GymSystemBLL.pdb
+D:\VS PROJECTS\GymSystem\GymSystemBLL\obj\Debug\net9.0\ref\GymSystemBLL.dll
