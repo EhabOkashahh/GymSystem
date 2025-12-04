@@ -33,7 +33,7 @@ namespace GymSystemBLL.Services.Classes
         public async Task<bool> UpdatePlanData(int id,UpdatePlanModelView model)
         {
             var plan = await GetRepo().GetByIdAsync(id);
-            if(plan is null) return false;
+             if(plan is null || plan.MemberShips.Any(ms => ms.status.Equals("Active",StringComparison.OrdinalIgnoreCase))) return false;
 
             GetRepo().Update(_mapper.Map<Plan>(model)); 
             return await _UnitOfWork.ApplyToDataBaseAsync() > 0;
@@ -42,7 +42,7 @@ namespace GymSystemBLL.Services.Classes
         public async Task<bool> TogglePlanActiveStatus(int id)
         {
             var plan = await GetRepo().GetByIdAsync(id);
-            if(plan is null) return false;
+             if(plan is null || plan.MemberShips.Any(ms => ms.status.Equals("Active",StringComparison.OrdinalIgnoreCase))) return false;
 
             plan.IsActive = !plan.IsActive;
             return await _UnitOfWork.ApplyToDataBaseAsync() > 0;
